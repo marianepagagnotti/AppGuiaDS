@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_guiads.MainPage">
+
+    <MasterDetailPage.Master>
+
+        <ContentPage Title="Menu">
+
+            <Grid BackgroundColor="#f3f2f0">
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition Height="205"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" BackgroundColor="#f3f2f0"
+                             Padding="10" Margin="10" HorizontalOptions="FillAndExpand">
+
+                    <Image Source="etec.png" Aspect="AspectFill"/>
+
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#f3f2f0">
+
+                    <Button Text="Inicial" Clicked="Open_Inicial" Style="{StaticResource botaovermelho}" />
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{StaticResource botaopreto}" />
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{StaticResource botaopreto}" />
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{StaticResource botaopreto}" />
+                    <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{StaticResource botaovermelho}" />
+                    <Button Text="Contato" Clicked="Open_Contato" Style="{StaticResource botaovermelho}" />
+
+
+                </StackLayout>
+                             
+
+            </Grid> 
+        </ContentPage>
+        
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

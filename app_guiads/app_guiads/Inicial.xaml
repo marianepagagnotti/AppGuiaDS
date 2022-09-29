@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_guiads.Inicial"
+             BackgroundColor="#f3f2f0"
+             Title=" Guia de DS  ;)">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout Padding="10">
+
+                <Label Text="Olá!! Esse APP foi desenvolvido com o intuito de guiá-lo pela grade do Curso
+                       Técnico de Desenvolvimento De Sistemas" FontSize="Medium" Style="{StaticResource textocentralizado}"/>
+
+                <Label Text="O Curso possui três anos de duração e é conciliado ao ensino médio."
+                        FontSize="Medium" Style="{StaticResource textocentralizado}"/>
+
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

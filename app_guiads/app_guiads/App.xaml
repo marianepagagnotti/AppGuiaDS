@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="app_guiads.App">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="botaovermelho" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="DarkRed" />
+                <Setter Property="TextColor" Value="DarkGray" />
+                <Setter Property="CornerRadius" Value="4" />
+            </Style>
+
+            <Style x:Key="botaopreto" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Black" />
+                <Setter Property="TextColor" Value="DarkGray" />
+                <Setter Property="CornerRadius" Value="4" />
+            </Style>
+
+            <Style x:Key="textocentralizado" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="TextColor" Value="DarkGray" />
+                
+            </Style>
+            
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#f3f2f0" />
+                <Setter Property="BarTextColor" Value="black" />
+
+            </Style>
+
+
+
+
+
+        </ResourceDictionary>
+    
+    
+    
+    </Application.Resources>
+</Application>
