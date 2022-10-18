@@ -15,6 +15,7 @@
                 <Button Text="Sistemas Embarcados " Clicked="Button_Clicked_2" Style="{ StaticResource botaopreto}" />
                 <Button Text="Programação Mobile I " Clicked="Button_Clicked_3" Style="{ StaticResource botaopreto }" />
                 <Button Text="Programação Web II" Clicked="Button_Clicked_4" Style="{ StaticResource botaopreto }" />
+                <Button Text="Ética e Cidadania Organizacional" Clicked="Button_Clicked_5" Style="{ StaticResource botaopreto }" />
                
 
             </StackLayout>

@@ -9,7 +9,7 @@
             <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
 
                 
-                <Button Text="Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaopreto }" />
+                <Button Text="Técnicas de Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaopreto }" />
                 <Button Text="Banco de Dados I" Clicked="Button_Clicked_2" Style="{ StaticResource botaopreto }" />
                 <Button Text="Análise de Sistemas" Clicked="Button_Clicked_3" Style="{ StaticResource botaopreto }" />
                 <Button Text="Design Digital" Clicked="Button_Clicked_4" Style="{ StaticResource botaopreto }" />

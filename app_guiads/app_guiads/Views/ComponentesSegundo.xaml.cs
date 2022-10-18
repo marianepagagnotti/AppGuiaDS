@@ -38,24 +38,100 @@ namespace app_guiads.Views
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Banco de Dados II ",
+                    AtribuicoesResponsabilidades = "Implementar banco de dados. ",
+                    ValoresAtitudes = "Incentivar a criatividade. • Desenvolver a criticidade. • Fortalecer a persistência e o interesse na resolução de situações-problema "
+                };
+
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
+
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Sistemas Embarcados  ",
+                    AtribuicoesResponsabilidades = "Desenvolver sistemas embarcados.  ",
+                    ValoresAtitudes = "Fortalecer a persistência e o interesse na resolução de situações-problema. • Estimular a organização. • Incentivar a criatividade. "
+                };
+
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
 
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private async void Button_Clicked_3(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Programação de Aplicativos Mobile I ",
+                    AtribuicoesResponsabilidades = "Elaborar projetos de aplicativos para plataformas móveis. ",
+                    ValoresAtitudes = "Incentivar a criatividade. • Responsabilizar-se pela produção, utilização e divulgação de informações. • Estimular a organização.  "
+                };
 
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
 
-        private void Button_Clicked_3(object sender, EventArgs e)
+        private async void Button_Clicked_4(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Programação Web II",
+                    AtribuicoesResponsabilidades = "Planejar projetos de sistemas de informação para web ",
+                    ValoresAtitudes = "Responsabilizar-se pela produção, utilização e divulgação de informações. • Fortalecer a persistência e o interesse na resolução de situações-problema. • Incentivar a criatividade.  "
+                };
 
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
 
-        private void Button_Clicked_4(object sender, EventArgs e)
+        private async void Button_Clicked_5(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Ética e Cidadania Organizacional  ",
+                    AtribuicoesResponsabilidades = "Atuar de acordo com princípios éticos nas relações de trabalho.  ",
+                    ValoresAtitudes = "Estimular atitudes respeitosas. • Incentivar comportamentos éticos. • Comprometer-se com a igualdade de direitos.  "
+                };
 
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
     }
 }
