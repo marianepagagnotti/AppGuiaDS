@@ -7,7 +7,7 @@
     <ContentPage.Content>
 
         <ScrollView>
-            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10,3">
 
                 
                 <Button Text="Desenvolvimento de Sistemas" Clicked="Button_Clicked" Style="{ StaticResource botaopreto }" />

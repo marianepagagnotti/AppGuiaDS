@@ -26,7 +26,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Desenvolvimento de Sistemas",
                     AtribuicoesResponsabilidades = "Elaborar projetos de sistema de informação.  ",
-                    ValoresAtitudes = "Estimular a organização. • Incentivar a criatividade. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    ValoresAtitudes = "Estimular a organização; \nIncentivar a criatividade; \nFortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -46,7 +46,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Banco de Dados II ",
                     AtribuicoesResponsabilidades = "Implementar banco de dados. ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Desenvolver a criticidade. • Fortalecer a persistência e o interesse na resolução de situações-problema "
+                    ValoresAtitudes = "Incentivar a criatividade; \nDesenvolver a criticidade;\n Fortalecer a persistência e o interesse na resolução de situações-problema "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -65,7 +65,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Sistemas Embarcados  ",
                     AtribuicoesResponsabilidades = "Desenvolver sistemas embarcados.  ",
-                    ValoresAtitudes = "Fortalecer a persistência e o interesse na resolução de situações-problema. • Estimular a organização. • Incentivar a criatividade. "
+                    ValoresAtitudes = "Fortalecer a persistência e o interesse na resolução de situações-problema; \nEstimular a organização; \nIncentivar a criatividade. "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -85,7 +85,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Programação de Aplicativos Mobile I ",
                     AtribuicoesResponsabilidades = "Elaborar projetos de aplicativos para plataformas móveis. ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Responsabilizar-se pela produção, utilização e divulgação de informações. • Estimular a organização.  "
+                    ValoresAtitudes = "Incentivar a criatividade; \nResponsabilizar-se pela produção, utilização e divulgação de informações; \nEstimular a organização.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -104,7 +104,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Programação Web II",
                     AtribuicoesResponsabilidades = "Planejar projetos de sistemas de informação para web ",
-                    ValoresAtitudes = "Responsabilizar-se pela produção, utilização e divulgação de informações. • Fortalecer a persistência e o interesse na resolução de situações-problema. • Incentivar a criatividade.  "
+                    ValoresAtitudes = "Responsabilizar-se pela produção, utilização e divulgação de informações; \nFortalecer a persistência e o interesse na resolução de situações-problema; \nIncentivar a criatividade.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -123,7 +123,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Ética e Cidadania Organizacional  ",
                     AtribuicoesResponsabilidades = "Atuar de acordo com princípios éticos nas relações de trabalho.  ",
-                    ValoresAtitudes = "Estimular atitudes respeitosas. • Incentivar comportamentos éticos. • Comprometer-se com a igualdade de direitos.  "
+                    ValoresAtitudes = "Estimular atitudes respeitosas; \nIncentivar comportamentos éticos; \nComprometer-se com a igualdade de direitos.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));

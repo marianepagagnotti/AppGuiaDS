@@ -6,7 +6,7 @@
              Title="Disciplinas do Primeiro Ano">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10,3">
 
                 
                 <Button Text="Técnicas de Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{ StaticResource botaopreto }" />

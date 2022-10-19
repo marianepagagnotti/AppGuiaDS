@@ -11,15 +11,17 @@
                    FontSize="Title"
                    FontAttributes="Bold"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+                    HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"/>
 
             <Label Text="R. Humaitá, nº 1090 - Centro, Jaú (SP)"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+                    HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"/>
 
             <Button Text="Tel: (14) 3622-3566"
                     Margin="10"
-                    Clicked="Button_Clicked" Style="{ StaticResource botaovermelho }" />
+                    Clicked="Button_Clicked" Style="{ StaticResource botaopreto }" />
 
             <Label Text=""
                     VerticalOptions="CenterAndExpand" 
@@ -27,7 +29,7 @@
 
             <Label Text="E-mail: e070dir@cps.sp.gov.br"
                     VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand" />
+                    HorizontalOptions="CenterAndExpand" TextColor="Black" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

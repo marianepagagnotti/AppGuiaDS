@@ -7,7 +7,7 @@
     
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10,3">
 
                 <Button Text="Segurança de Sistemas de Informação " Clicked="Button_Clicked" Style="{ StaticResource botaopreto }" />
                 <Button Text="Sistemas Embarcados " Clicked="Button_Clicked_2" Style="{ StaticResource botaopreto }" />

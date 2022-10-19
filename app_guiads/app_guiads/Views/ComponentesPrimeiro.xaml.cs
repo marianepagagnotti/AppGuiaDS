@@ -27,8 +27,8 @@ namespace app_guiads.Views
                 var c = new Componente
                 {
                     Nome = "Técnicas Programação e Algoritmos",
-                    AtribuicoesResponsabilidades = "• Implementar algoritmos em linguagem de programação, utilizando ambientes de desenvolvimento de acordo com as necessidades.  ",
-                    ValoresAtitudes = "• Estimular a organização. • Incentivar atitudes de autonomia. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    AtribuicoesResponsabilidades = " Implementar algoritmos em linguagem de programação, utilizando ambientes de desenvolvimento de acordo com as necessidades.  ",
+                    ValoresAtitudes = "Estimular a organização; \nIncentivar atitudes de autonomia; \nFortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -48,7 +48,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Banco de Dados I",
                     AtribuicoesResponsabilidades = "Modelar banco de dados ",
-                    ValoresAtitudes = "Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problema. • Promover ações que considerem o respeito às normas estabelecidas."
+                    ValoresAtitudes = "Estimular a organização; \nFortalecer a persistência e o interesse na resolução de situações-problema; \nPromover ações que considerem o respeito às normas estabelecidas."
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -68,7 +68,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Análise de Sistemas",
                     AtribuicoesResponsabilidades = "Elaborar projetos de sistema de informação.  ",
-                    ValoresAtitudes = "Estimular a organização. • Incentivar a criatividade. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    ValoresAtitudes = "Estimular a organização; \nIncentivar a criatividade; \nFortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -87,7 +87,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Design Digital",
                     AtribuicoesResponsabilidades = "Desenvolver elementos gráficos para aplicativos e sites.  ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Respeitar as manifestações culturais de outros povos. • Incentivar ações que promovam a cooperação. "
+                    ValoresAtitudes = "Incentivar a criatividade; \nRespeitar as manifestações culturais de outros povos; \nIncentivar ações que promovam a cooperação. "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -106,7 +106,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Programação Web I",
                     AtribuicoesResponsabilidades = "Desenvolver sites para Web ",
-                    ValoresAtitudes = "Incentivar a criatividade. • Estimular a organização. • Fortalecer a persistência e o interesse na resolução de situações-problema.  "
+                    ValoresAtitudes = "Incentivar a criatividade; \nEstimular a organização; \nFortalecer a persistência e o interesse na resolução de situações-problema.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));
@@ -126,7 +126,7 @@ namespace app_guiads.Views
                 {
                     Nome = "Fundamentos da Informática",
                     AtribuicoesResponsabilidades = "Operar sistemas computacionais.  ",
-                    ValoresAtitudes = "Desenvolver a criticidade. • Incentivar comportamentos éticos. • Promover ações que considerem o respeito às normas estabelecidas.  "
+                    ValoresAtitudes = "Desenvolver a criticidade; \nIncentivar comportamentos éticos; \nPromover ações que considerem o respeito às normas estabelecidas.  "
                 };
 
                 await Navigation.PushAsync(new VerComponente(c));

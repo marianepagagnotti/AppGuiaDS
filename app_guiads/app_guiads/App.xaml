@@ -7,15 +7,21 @@
         <ResourceDictionary>
 
             <Style x:Key="botaovermelho" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="DarkRed" />
-                <Setter Property="TextColor" Value="DarkGray" />
-                <Setter Property="CornerRadius" Value="4" />
+                <Setter Property="BackgroundColor" Value="#f3f2f0" />
+                <Setter Property="TextColor" Value="black" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="BorderColor" Value="Black" />
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
             <Style x:Key="botaopreto" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="Black" />
-                <Setter Property="TextColor" Value="DarkGray" />
+                <Setter Property="BackgroundColor" Value="#f3f2f0" />
+                <Setter Property="TextColor" Value="Black" />
                 <Setter Property="CornerRadius" Value="4" />
+                <Setter Property="BorderColor" Value="DarkRed" />
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
             <Style x:Key="textocentralizado" TargetType="Label">
@@ -27,6 +33,7 @@
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="#f3f2f0" />
                 <Setter Property="BarTextColor" Value="black" />
+                
 
             </Style>
 
