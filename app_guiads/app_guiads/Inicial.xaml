@@ -2,23 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="app_guiads.Inicial"
-             BackgroundColor="#f3f2f0"
+             BackgroundColor="#fff"
              Title=" Guia de DS  ;)">
     <ContentPage.Content>
 
         <ScrollView>
 
-            <StackLayout Padding="10">
 
-                <Label Text="Olá!! Esse APP foi desenvolvido com o intuito de guiá-lo pela grade do Curso
-                       Técnico de Desenvolvimento De Sistemas" FontSize="Medium" Style="{StaticResource textocentralizado}"/>
+            <Grid RowDefinitions="200,100,*,*">
+                <CarouselView Margin="0" IsBounceEnabled="True" ItemsSource="{Binding ImageCollection}" 
+                          IndicatorView="indicatorView">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <Image Source="{Binding _Image}" Aspect="AspectFill" 
+                                   HorizontalOptions="FillAndExpand"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <IndicatorView Grid.Row="1" Margin="0,-140,0,0" 
+                           x:Name="indicatorView" IndicatorColor="Gray" 
+                           SelectedIndicatorColor="#AB0209" HorizontalOptions="Center"/>
 
-                <Label Text="O Curso possui três anos de duração e é conciliado ao ensino médio."
-                        FontSize="Medium" Style="{StaticResource textocentralizado}"/>
 
-                
+                <StackLayout Grid.Row="2" Padding="3" Margin="0,-80,0,0">
 
-            </StackLayout>
+                    <Label Text="Olá!! Esse APP foi desenvolvido com o intuito de guiá-lo pela grade do Curso Técnico de Desenvolvimento De Sistemas" FontSize="Medium" Style="{StaticResource textocentralizado}" />
+
+                    <Label Text="O Curso possui três anos de duração e é conciliado ao ensino médio." Style="{StaticResource textocentralizado}"
+                        FontSize="Medium"  />
+
+
+
+                </StackLayout>
+
+
+
+
+
+            </Grid>
+
+
+
+
+
+           
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

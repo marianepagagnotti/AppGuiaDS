@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="app_guiads.Views.VerComponente"
-             BackgroundColor="#f3f2f0">
+             BackgroundColor="#fff">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
             <ScrollView>
@@ -25,7 +25,7 @@
                     <Label Text="{Binding AtribuicoesResponsabilidades}"
                        Margin="0, 0, 0, 30"
                        FontSize="Medium"
-                       HorizontalTextAlignment="Center" />
+                       HorizontalTextAlignment="Center" Style="{StaticResource textonormal}" />
 
 
 
@@ -37,7 +37,7 @@
 
                     <Label Text="{Binding ValoresAtitudes}"
                        FontSize="Medium"
-                       HorizontalTextAlignment="Center" />
+                       HorizontalTextAlignment="Center" Style="{StaticResource textonormal}" />
 
 
                  

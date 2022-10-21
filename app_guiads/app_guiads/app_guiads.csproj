@@ -14,6 +14,9 @@
     <None Remove="cps.jpg" />
     <None Remove="etec.png" />
     <None Remove="etec2.png" />
+    <None Remove="foto1.jpg" />
+    <None Remove="foto2.jpg" />
+    <None Remove="foto3.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +24,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="etec2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foto1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foto2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foto3.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
