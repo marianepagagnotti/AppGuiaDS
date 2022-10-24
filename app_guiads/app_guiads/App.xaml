@@ -35,7 +35,7 @@
             </Style>
 
             <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="DarkRed" />
+                <Setter Property="BarBackgroundColor" Value="#f3f2f0" />
                 <Setter Property="BarTextColor" Value="black" />
                 
 

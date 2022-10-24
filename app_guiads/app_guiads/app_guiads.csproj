@@ -16,6 +16,7 @@
     <None Remove="etec2.png" />
     <None Remove="foto1.jpg" />
     <None Remove="foto2.jpg" />
+    <None Remove="foto3.jpeg" />
     <None Remove="foto3.jpg" />
   </ItemGroup>
 
